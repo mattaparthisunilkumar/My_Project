@@ -30,6 +30,14 @@ int sub(int a, int b) // basic subtraction function
 
 float div(int a, int b) // basic division function
 {
-    return (float)a/b;
+	
+	if(b == 0)
+	{
+		return 0;
+	}
+	else
+	{
+		return (float)a/b;
+	}
 }
 
